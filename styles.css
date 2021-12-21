@@ -1,0 +1,212 @@
+*{	
+	margin: 0;
+	padding: 0;
+	font-family: "poppins", sans-serif;
+	
+}
+
+.header{
+
+	min-height: 100vh;
+	width: 100%;
+	background-image: url(image4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+
+nav{
+
+	display: flex;
+	padding: 2% 6%;
+	align-items: center;
+	justify-content: space-between;
+}
+nav img{
+
+	width: 100px;
+}
+.nav-links{
+
+	flex: 1;
+	text-align: right;
+
+	
+}
+
+.nav-links ul li{
+
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a{
+
+	text-decoration: none;
+	color: white;
+	
+	font-size: 13px;
+}
+
+.nav-links ul li::after{
+
+    content: '';
+	background: #ff3d00;
+	width: 0;
+	height: 2px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: width  0.5s;
+}
+
+.nav-links ul li:hover::after{
+
+	width: 100%;
+}
+.text-box{
+
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.btn{
+
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+
+	padding: 15px 34px;
+	font-size: 13px;
+	background: #DEB887;
+	position: relative;
+	cursor: pointer;
+
+
+}
+.btn:hover{
+
+
+	background: #f44336;
+	transition: 1s;
+}
+.head{
+   position: absolute;
+   top: 45%;
+   left: 15%;
+}
+h1 {  
+    font-family: 'Aclonica';
+    font-size: 150px;
+    color: white;
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+figure{width:200px;height:60px;cursor:pointer;perspective:500px;-webkit-perspective:500px;position: absolute;
+	top: 80%;
+	left: 43%;}
+figure div{height:100%;transform-style:preserve-3d;-webkit-transform-style:preserve-3d;transition:0.25s;-webkit-transition:0.25s;}
+
+figure:hover div{transform:rotateX(-90deg);}
+
+span{width:100%;height:100%;position:absolute;box-sizing:border-box;border:5px solid #fff;font-family:'Source Sans Pro',sans-serif;line-height:50px;font-size:17pt;text-align:center;text-transform:uppercase;}
+
+span:nth-child(1){color:#fff;transform: translate3d(0, 0, 30px);-webkit-transform: translate3d(0, 0, 30px);}
+
+span:nth-child(2){color:$color;background:#fff;transform: rotateX(90deg) translate3d(0, 0, 30px);-webkit-transform: rotateX(90deg) translate3d(0, 0, 30px);
+}
+
+.jm-logo a {
+	padding: 60px;
+}
+.jm-logo img:hover {
+	-webkit-animation-name: wobble-to-top-right;
+	animation-name: wobble-to-top-right;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+}
+@-webkit-keyframes wobble-to-top-right {
+	16.65% {
+		-ms-transform: translate(8px, -8px);
+		-webkit-transform: translate(8px, -8px);
+    	transform: translate(8px, -8px);
+	}
+	33.3% {
+	    -ms-transform: translate(-6px, 6px);
+	    -webkit-transform: translate(-6px, 6px);
+	    transform: translate(-6px, 6px);
+  	}
+	49.95% {
+	    -ms-transform: translate(4px, -4px);
+	    -webkit-transform: translate(4px, -4px);
+	    transform: translate(4px, -4px);
+  	}
+  	66.6% {
+	    -ms-transform: translate(-2px, 2px);
+	    -webkit-transform: translate(-2px, 2px);
+	    transform: translate(-2px, 2px);
+  	}
+	83.25% {
+    	-ms-transform: translate(1px, -1px);
+    	-webkit-transform: translate(1px, -1px);
+		transform: translate(1px, -1px);
+	}
+	100% {
+		-ms-transform: translate(0, 0);
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+}
+@keyframes wobble-to-top-right {
+  	16.65% {
+  	    -ms-transform: translate(8px, -8px);
+	    -webkit-transform: translate(8px, -8px);
+	    transform: translate(8px, -8px);
+  	}
+  	33.3% {
+  		-ms-transform: translate(-6px, 6px);
+	    -webkit-transform: translate(-6px, 6px);
+	    transform: translate(-6px, 6px);
+  	}
+  	49.95% {
+  		-ms-transform: translate(4px, -4px);
+	    -webkit-transform: translate(4px, -4px);
+	    transform: translate(4px, -4px);
+  	}
+  	66.6% {
+  		-ms-transform: translate(-2px, 2px);
+	    -webkit-transform: translate(-2px, 2px);
+	    transform: translate(-2px, 2px);
+  	}
+  	83.25% {
+  		-ms-transform: translate(1px, -1px);
+	    -webkit-transform: translate(1px, -1px);
+	    transform: translate(1px, -1px);
+  	}
+  	100% {
+  		-ms-transform: translate(0, 0);
+	    -webkit-transform: translate(0, 0);
+	    transform: translate(0, 0);
+  	}
+}
+.gif{
+
+position: absolute;
+left :1055px;
+top: 360px;
+opacity: 0.2;
+
+
+}
